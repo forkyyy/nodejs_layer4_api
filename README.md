@@ -45,18 +45,19 @@ npm i express
 <h3>Update api.js:</h3><br>
 
 ```
-const api_port: Your API HTTP Port
-const socket_token: Your secret Token for the TCP Socket
-const api_key: Your API Key
-const domain_lock: true or false (if its set to true you can only access the API if using the domain on api_domain)
+const api_port = 8888; //API Port
+const socket_token = "SOCKET_TOKEN"; // TCP Socket token, use random numbers/letters
+const api_key = "API_KEY"; // your API Key
+const domain_lock = false; // lock api to only be used from a specific domain
+const api_domain = 'example.com'; // your API domain (if domain_lock is set to true)
 ```
 
 <h3>Update socket.js:</h3><br>
 
 ```
-const socket_port: Your socket port
-const socket_token: Your secret Token for the TCP Socket (must be same as api.js)
-const allowed_ips: The api.js server IP
+const socket_port = 3000;
+const socket_token = "SOCKET_TOKEN";
+const allowed_ips = ['1.1.1.1'];
 ```
 
 ### Reverse Proxy
