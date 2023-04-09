@@ -67,7 +67,7 @@ We recommend making a reverse proxy using Nginx to use your API:
 server {
     listen 80;
     server_name api.yourdomain.com;
-    location /api {
+    location /api/attack {
         proxy_pass http://backend:3000/api/attack;
     }
 }
