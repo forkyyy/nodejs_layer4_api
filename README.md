@@ -13,11 +13,13 @@ npm i express
 
 <h1>Setup:</h1>
 
-<h3>Update servers.json to your servers IP/Ports and names<br>
+Update servers.json to your servers IP/Ports and names<br>
 Update commands.json to your methods names and commands<br>
 Update api.js:<br>
 
+```js
 const api_port: Your API HTTP Port
 const socket_token: Your secret Token for the TCP Socket
 const api_key: Your API Key
-const domain_lock: true or false (if its set to true you can only access the API if using the domain on api_domain)</h3>
+const domain_lock: true or false (if its set to true you can only access the API if using the domain on api_domain)
+```
