@@ -2,7 +2,7 @@
 
 <h3>Coded by forky (tg: ***@yfork***)</h3>
 
-<h3>This API is very secure and fast (taking 2x the ping between API and backend, if the ping is 60ms it will take only 120ms to launch the attack)</h3>
+<h4>This API is very secure and fast (taking 2x the ping between API and backend, if the ping is 60ms it will take only 120ms to launch the attack)</h4>
 
 
 <h1>Installation:</h1>
