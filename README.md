@@ -79,11 +79,11 @@ Replace `'http://backend:3000/api/attack'` with your API server URL
 
 Send a GET request to the API using the required fields
 
-GET `https://api.yourdomain.com/api?host=1.1.1.1&port=80&time=120&method=DNS&server=alpha`
+GET `https://api.yourdomain.com/api/attack?host=1.1.1.1&port=80&time=120&method=DNS&server=alpha`
 
 You can set &server=all to launch to all servers
 
 You can stop attacks by sending a GET request to the API using &method=stop
 
-GET `https://api.yourdomain.com/api?host=1.1.1.1&port=80&time=120&method=stop&server=alpha`
+GET `https://api.yourdomain.com/api/attack?host=1.1.1.1&port=80&time=120&method=stop&server=alpha`
 
