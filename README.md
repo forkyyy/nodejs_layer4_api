@@ -17,7 +17,7 @@ Update servers.json to your servers IP/Ports and names<br>
 Update commands.json to your methods names and commands<br>
 Update api.js:<br>
 
-```js
+```
 const api_port: Your API HTTP Port
 const socket_token: Your secret Token for the TCP Socket
 const api_key: Your API Key
