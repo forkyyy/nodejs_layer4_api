@@ -15,7 +15,7 @@ npm i express
 
 <h1>Setup:</h1>
 
-<h3>Update servers.json to your servers IP/Ports and names</h3><br>
+<h3>Update servers.json</h3><br>
 
 ```json
 {
@@ -32,7 +32,7 @@ npm i express
 }
 ```
 
-<h3>Update commands.json to your methods names and commands</h3><br>
+<h3>Update commands.json</h3><br>
 
 ```json
 {
