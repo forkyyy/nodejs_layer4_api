@@ -60,7 +60,9 @@ const socket_token = "SOCKET_TOKEN";
 const allowed_ips = ['1.1.1.1'];
 ```
 
-After that you upload socket.js to the attack servers and upload api.js, servers.json and commands.json to the API server
+## After that you upload socket.js to the attack servers and upload api.js, servers.json and commands.json to the API server
+
+
 ### Reverse Proxy
 
 We recommend making a reverse proxy using Nginx to use your API:
