@@ -43,7 +43,7 @@ app.get(`/api/attack`, async (req, res) => {
     try {
 
         const command = commands[field.method.toUpperCase()]
-        .replace('${attack_id}', field.attackid)
+        .replace('${attack_id}', attackid)
         .replace('${host}', field.host)
         .replace('${port}', field.port)
         .replace('${time}', field.time);
